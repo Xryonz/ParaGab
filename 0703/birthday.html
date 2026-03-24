@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feliz Aniversário ✦</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="birthday.css" />
+  </head>
+  <body>
+    <canvas id="particles"></canvas>
+
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-inner">
+        <p class="eyebrow">hoje é um dia especial</p>
+        <h1>
+          Feliz<br />
+          <em>Aniversário</em>
+        </h1>
+        <p class="subtitle">
+          Que este dia seja tão lindo quanto você é para mim.
+        </p>
+        <p class="scroll-hint">↓ &nbsp; role para baixo</p>
+      </div>
+    </section>
+
+    <section class="age-section">
+      <p class="section-label">hoje você completa</p>
+      <div class="age-display">
+        <span class="age-number" id="age">00</span>
+        <span class="age-word">anos</span>
+      </div>
+      <p class="age-date" id="birth-display">nascida em __ de ______ de ____</p>
+    </section>
+
+    <section class="countdown-section">
+      <p class="section-label">próximo aniversário em</p>
+      <div class="counter-grid">
+        <div class="counter-unit">
+          <span class="counter-number" id="cd-months"></span>
+          <span class="counter-label">meses</span>
+        </div>
+        <span class="divider">·</span>
+        <div class="counter-unit">
+          <span class="counter-number" id="cd-days"></span>
+          <span class="counter-label">dias</span>
+        </div>
+        <span class="divider">·</span>
+        <div class="counter-unit">
+          <span class="counter-number" id="cd-hours"></span>
+          <span class="counter-label">horas</span>
+        </div>
+        <span class="divider">·</span>
+        <div class="counter-unit">
+          <span class="counter-number" id="cd-minutes"></span>
+          <span class="counter-label">minutos</span>
+        </div>
+      </div>
+      <p class="countdown-note" id="is-today-msg"></p>
+    </section>
+
+    
+    <section class="letter-section">
+      <div class="deco-line"></div>
+      <p class="letter-text">
+        Esse é o primeiro aniversário que passo ao seu lado, o melhor presente
+        que ja recebi, e olha que quem faz aniversário é você né ksksksks
+      </p>
+      <p class="letter-sig">
+        Com 1/67 de meu <strong>♡</strong> &nbsp;—&nbsp; De quem sera ne
+      </p>
+    </section>
+
+    <footer>
+      <span class="heart-beat">✦</span>
+      <p class="footer-name">Gabriela</p>
+    </footer>
+
+    <script src="birthday.js"></script>
+  </body>
+</html>
